@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nk7-2C-Opl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Calculate Commission-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Commission_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="iGc-1e-65c">
+                                <rect key="frame" x="0.0" y="138" width="414" height="683"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="C4B-Jg-I1f">
+                                        <rect key="frame" x="37" y="0.0" width="340" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKH-XQ-4oE" customClass="KBRoundedButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
+                                                <color key="backgroundColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="Bxn-qN-rgJ"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Ln8-jf-hbo"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="175" id="uE7-xB-VMb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <color key="tintColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Home value">
+                                                    <color key="titleColor" red="0.0078048906289999997" green="0.007625525817" blue="0.0200868994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="homeValueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOZ-Q2-MJH"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$__________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERq-jE-2iH">
+                                                <rect key="frame" x="190" y="0.0" width="150" height="50"/>
+                                                <color key="tintColor" red="0.018940197299999999" green="0.57842057940000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Zyc-A8-rhj">
+                                        <rect key="frame" x="37" y="152" width="340" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yG-3Q-znc" customClass="KBRoundedButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
+                                                <color key="backgroundColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="7cd-7u-K4a"/>
+                                                    <constraint firstAttribute="width" constant="150" id="Mba-Uc-Wvf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <state key="normal" title="Commission">
+                                                    <color key="titleColor" red="0.0078048906289999997" green="0.007625525817" blue="0.0200868994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="commissionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y73-F3-6Kq"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%__________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5g-mH-4fZ">
+                                                <rect key="frame" x="190" y="0.0" width="150" height="50"/>
+                                                <color key="tintColor" red="0.018940197299999999" green="0.57842057940000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="GNl-LM-wVS">
+                                        <rect key="frame" x="37" y="304" width="340" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REk-Xb-OzT" customClass="KBRoundedButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
+                                                <color key="backgroundColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="4Ta-9e-4g1"/>
+                                                    <constraint firstAttribute="height" constant="50" id="5T5-SZ-DUS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <state key="normal" title="Your Split">
+                                                    <color key="titleColor" red="0.0078048906289999997" green="0.007625525817" blue="0.0200868994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="splitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNi-RO-QIw"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%__________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJb-Rs-5jT">
+                                                <rect key="frame" x="190" y="0.0" width="150" height="50"/>
+                                                <color key="tintColor" red="0.018940197299999999" green="0.57842057940000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="ctI-Mh-SWr">
+                                        <rect key="frame" x="37" y="456" width="340" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAq-wI-yiG" customClass="KBRoundedButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
+                                                <color key="backgroundColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="MrB-YT-Sri"/>
+                                                    <constraint firstAttribute="width" constant="150" id="pdh-xf-Rlo"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <state key="normal" title="Business Fee">
+                                                    <color key="titleColor" red="0.0078048906289999997" green="0.007625525817" blue="0.0200868994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="businessFeeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="63U-mi-uVy"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%__________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEg-BR-NOL">
+                                                <rect key="frame" x="190" y="0.0" width="150" height="50"/>
+                                                <color key="tintColor" red="0.018940197299999999" green="0.57842057940000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyl-QW-lu6" customClass="KBRoundedButton">
+                                        <rect key="frame" x="107" y="608" width="200" height="75"/>
+                                        <color key="backgroundColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="46h-dg-B7l"/>
+                                            <constraint firstAttribute="width" constant="200" id="kjb-AR-onU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="25"/>
+                                        <state key="normal" title="Calculate">
+                                            <color key="titleColor" red="0.0078048906289999997" green="0.007625525817" blue="0.0200868994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="calculateCommision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xJY-Et-yTR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.86823499199999998" green="0.22115263339999999" blue="0.097675867380000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.92251503469999996" green="0.3671728373" blue="0.5713802576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iGc-1e-65c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EeK-h0-Eae"/>
+                            <constraint firstAttribute="bottom" secondItem="iGc-1e-65c" secondAttribute="bottom" constant="75" id="W75-nG-ZHi"/>
+                            <constraint firstItem="iGc-1e-65c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="bvP-9O-1bc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iGc-1e-65c" secondAttribute="trailing" id="cPJ-6G-rQK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Calculate Commission" id="Nvm-V6-uLZ"/>
+                    <connections>
+                        <outlet property="businessFeeResult" destination="cEg-BR-NOL" id="cyn-IN-oQt"/>
+                        <outlet property="commissionResult" destination="J5g-mH-4fZ" id="BSC-cF-Rf1"/>
+                        <outlet property="homeValueResult" destination="ERq-jE-2iH" id="vsq-HD-Wdm"/>
+                        <outlet property="splitResult" destination="JJb-Rs-5jT" id="CeZ-qS-3h1"/>
+                        <segue destination="gFP-7U-Zrr" kind="presentation" identifier="goToResult" id="D75-bO-Cn3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="-96.428571428571431"/>
+        </scene>
+        <!--Commission Results-->
+        <scene sceneID="wir-qv-sN2">
+            <objects>
+                <viewController id="gFP-7U-Zrr" customClass="ResultsViewController" customModule="Commission_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Un1-kL-RRM" customClass="Results">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="m2k-HG-Cix">
+                                <rect key="frame" x="0.0" y="100" width="414" height="528.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Commission on this transaction is" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WL-cE-uap">
+                                        <rect key="frame" x="7.5" y="0.0" width="399" height="88.5"/>
+                                        <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="40"/>
+                                        <color key="textColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofq-vu-qip">
+                                        <rect key="frame" x="177" y="188.5" width="60" height="50"/>
+                                        <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="45"/>
+                                        <color key="textColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="ydF-RW-96B">
+                                        <rect key="frame" x="132" y="338.5" width="150" height="190"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRs-p7-n7y" customClass="KBRoundedButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="75"/>
+                                                <color key="backgroundColor" red="0.86823499199999998" green="0.22115263339999999" blue="0.097675867380000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="CYH-lU-1dX"/>
+                                                    <constraint firstAttribute="height" constant="75" id="akP-Dw-FS2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="25"/>
+                                                <state key="normal" title="Recalculate">
+                                                    <color key="titleColor" red="0.90145856140000002" green="0.91330903770000005" blue="0.94230383630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="recalculateButton:" destination="gFP-7U-Zrr" eventType="touchUpInside" id="C9r-LA-899"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTx-xy-Lie" userLabel="Store" customClass="KBRoundedButton">
+                                                <rect key="frame" x="0.0" y="115" width="150" height="75"/>
+                                                <color key="backgroundColor" red="0.86823499199999998" green="0.22115263339999999" blue="0.097675867380000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="3Ie-LM-wUv"/>
+                                                    <constraint firstAttribute="height" constant="75" id="eqD-Mh-qbz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="25"/>
+                                                <state key="normal" title="Store">
+                                                    <color key="titleColor" red="0.90145856140000002" green="0.91330903770000005" blue="0.94230383630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="storeResultsButton:" destination="gFP-7U-Zrr" eventType="touchUpInside" id="soc-D1-cgn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pw1-bv-B3D"/>
+                        <color key="backgroundColor" red="0.067026786510000005" green="0.1199607328" blue="0.30299776789999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m2k-HG-Cix" firstAttribute="top" secondItem="pw1-bv-B3D" secondAttribute="top" constant="100" id="0kl-49-qGO"/>
+                            <constraint firstAttribute="trailing" secondItem="m2k-HG-Cix" secondAttribute="trailing" id="4Bt-RC-Jgs"/>
+                            <constraint firstItem="m2k-HG-Cix" firstAttribute="leading" secondItem="pw1-bv-B3D" secondAttribute="leading" id="zPq-3k-jTq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Commission Results" id="2Tn-dR-3dj"/>
+                    <connections>
+                        <outlet property="finalResultLabel" destination="ofq-vu-qip" id="feE-1d-qnw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wrI-W9-i1g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1013.0434782608696" y="-108.48214285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qWf-H4-Gem">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nk7-2C-Opl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="320-LE-CiB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.067026786510000005" green="0.1199607328" blue="0.30299776789999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.94866949320000005" green="0.95673340559999998" blue="0.96908277269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lTb-gk-BOA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j8A-NC-k8i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-910.14492753623199" y="-96.428571428571431"/>
+        </scene>
+    </scenes>
+</document>

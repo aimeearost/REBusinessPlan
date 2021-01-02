@@ -1,0 +1,16 @@
+PODS:
+  - KBRoundedButton (1.0.4)
+
+DEPENDENCIES:
+  - KBRoundedButton
+
+SPEC REPOS:
+  trunk:
+    - KBRoundedButton
+
+SPEC CHECKSUMS:
+  KBRoundedButton: 8fde755b8f1df3ddd3c3c280d9b27ce04ab55d00
+
+PODFILE CHECKSUM: e0073a328319d684ff06d1e830b69f7a2fb1c7c1
+
+COCOAPODS: 1.10.0
