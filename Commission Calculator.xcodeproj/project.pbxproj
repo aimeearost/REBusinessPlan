@@ -3,26 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A15D09A773BE58D8E4A2CAC /* Pods_Commission_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F56B22E071D71C0712797B /* Pods_Commission_Calculator.framework */; };
+		7367D9FA25A124A500DB1DCD /* Sales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367D9F925A124A500DB1DCD /* Sales.swift */; };
+		7367DA2B25A154BC00DB1DCD /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367DA2A25A154BC00DB1DCD /* SelectViewController.swift */; };
+		7367DA2E25A15A3100DB1DCD /* WhyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367DA2D25A15A3100DB1DCD /* WhyViewController.swift */; };
+		7367DA4725A254B600DB1DCD /* StoredPropertiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367DA4525A254B600DB1DCD /* StoredPropertiesTableViewController.swift */; };
+		7367DA4825A254B600DB1DCD /* StoredPropertiesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7367DA4625A254B600DB1DCD /* StoredPropertiesTableViewController.xib */; };
 		73C46C982586D25B00E13C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C46C972586D25B00E13C0D /* AppDelegate.swift */; };
 		73C46C9A2586D25B00E13C0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C46C992586D25B00E13C0D /* SceneDelegate.swift */; };
-		73C46C9C2586D25B00E13C0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C46C9B2586D25B00E13C0D /* ViewController.swift */; };
+		73C46C9C2586D25B00E13C0D /* CalculateComissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C46C9B2586D25B00E13C0D /* CalculateComissionViewController.swift */; };
 		73C46C9F2586D25B00E13C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C46C9D2586D25B00E13C0D /* Main.storyboard */; };
 		73C46CA12586D25D00E13C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C46CA02586D25D00E13C0D /* Assets.xcassets */; };
 		73C46CA42586D25D00E13C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C46CA22586D25D00E13C0D /* LaunchScreen.storyboard */; };
 		73C46CAD2586D2A400E13C0D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C46CAC2586D2A400E13C0D /* ResultsViewController.swift */; };
+		E24154571A406228DD662E8E /* Pods_Commission_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F56B22E071D71C0712797B /* Pods_Commission_Calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26A280D0FD64C3101CC94AFE /* Pods-Commission Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Commission Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Commission Calculator/Pods-Commission Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		7367D9F925A124A500DB1DCD /* Sales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sales.swift; sourceTree = "<group>"; };
+		7367DA2A25A154BC00DB1DCD /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		7367DA2D25A15A3100DB1DCD /* WhyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyViewController.swift; sourceTree = "<group>"; };
+		7367DA4525A254B600DB1DCD /* StoredPropertiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredPropertiesTableViewController.swift; sourceTree = "<group>"; };
+		7367DA4625A254B600DB1DCD /* StoredPropertiesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoredPropertiesTableViewController.xib; sourceTree = "<group>"; };
 		73C46C942586D25B00E13C0D /* Commission Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Commission Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C46C972586D25B00E13C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73C46C992586D25B00E13C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73C46C9B2586D25B00E13C0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73C46C9B2586D25B00E13C0D /* CalculateComissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateComissionViewController.swift; sourceTree = "<group>"; };
 		73C46C9E2586D25B00E13C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73C46CA02586D25D00E13C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C46CA32586D25D00E13C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A15D09A773BE58D8E4A2CAC /* Pods_Commission_Calculator.framework in Frameworks */,
+				E24154571A406228DD662E8E /* Pods_Commission_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +60,32 @@
 				B4F56B22E071D71C0712797B /* Pods_Commission_Calculator.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7367D9C025A11C2A00DB1DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73C46C9D2586D25B00E13C0D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7367D9F625A1239A00DB1DCD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				73C46CA02586D25D00E13C0D /* Assets.xcassets */,
+				73C46C992586D25B00E13C0D /* SceneDelegate.swift */,
+				73C46CA22586D25D00E13C0D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		7367D9F725A123B400DB1DCD /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				7367D9F925A124A500DB1DCD /* Sales.swift */,
+			);
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 		73C46C8B2586D25B00E13C0D = {
@@ -74,11 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				73C46C972586D25B00E13C0D /* AppDelegate.swift */,
-				73C46C992586D25B00E13C0D /* SceneDelegate.swift */,
+				7367D9F725A123B400DB1DCD /* Data Model */,
 				73C46CAF2586D2B200E13C0D /* Controllers */,
-				73C46C9D2586D25B00E13C0D /* Main.storyboard */,
-				73C46CA02586D25D00E13C0D /* Assets.xcassets */,
-				73C46CA22586D25D00E13C0D /* LaunchScreen.storyboard */,
+				7367D9C025A11C2A00DB1DCD /* Views */,
+				7367D9F625A1239A00DB1DCD /* Supporting files */,
 				73C46CA52586D25D00E13C0D /* Info.plist */,
 			);
 			path = "Commission Calculator";
@@ -87,8 +122,12 @@
 		73C46CAF2586D2B200E13C0D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				73C46C9B2586D25B00E13C0D /* ViewController.swift */,
+				73C46C9B2586D25B00E13C0D /* CalculateComissionViewController.swift */,
 				73C46CAC2586D2A400E13C0D /* ResultsViewController.swift */,
+				7367DA2A25A154BC00DB1DCD /* SelectViewController.swift */,
+				7367DA2D25A15A3100DB1DCD /* WhyViewController.swift */,
+				7367DA4525A254B600DB1DCD /* StoredPropertiesTableViewController.swift */,
+				7367DA4625A254B600DB1DCD /* StoredPropertiesTableViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -99,7 +138,6 @@
 				26A280D0FD64C3101CC94AFE /* Pods-Commission Calculator.debug.xcconfig */,
 				8FD5F89F772436C16E11879C /* Pods-Commission Calculator.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C46CA42586D25D00E13C0D /* LaunchScreen.storyboard in Resources */,
+				7367DA4825A254B600DB1DCD /* StoredPropertiesTableViewController.xib in Resources */,
 				73C46CA12586D25D00E13C0D /* Assets.xcassets in Resources */,
 				73C46C9F2586D25B00E13C0D /* Main.storyboard in Resources */,
 			);
@@ -217,9 +256,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73C46C9C2586D25B00E13C0D /* ViewController.swift in Sources */,
+				73C46C9C2586D25B00E13C0D /* CalculateComissionViewController.swift in Sources */,
+				7367DA2E25A15A3100DB1DCD /* WhyViewController.swift in Sources */,
+				7367D9FA25A124A500DB1DCD /* Sales.swift in Sources */,
 				73C46C982586D25B00E13C0D /* AppDelegate.swift in Sources */,
+				7367DA2B25A154BC00DB1DCD /* SelectViewController.swift in Sources */,
 				73C46C9A2586D25B00E13C0D /* SceneDelegate.swift in Sources */,
+				7367DA4725A254B600DB1DCD /* StoredPropertiesTableViewController.swift in Sources */,
 				73C46CAD2586D2A400E13C0D /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -352,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

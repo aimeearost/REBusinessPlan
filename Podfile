@@ -7,5 +7,9 @@ target 'Commission Calculator' do
 
   # Pods for Commission Calculator
 pod 'KBRoundedButton'
+pod 'RealmSwift'
+pod 'youtube-ios-player-helper'
+
+
 
 end
